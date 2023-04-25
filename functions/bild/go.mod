@@ -3,6 +3,7 @@ module function
 go 1.19
 
 require (
+	github.com/anthonynsimon/bild v0.13.0
 	github.com/ipfs/go-cid v0.0.7
 	github.com/taubyte/go-sdk v0.3.7
 )
