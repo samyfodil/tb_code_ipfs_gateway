@@ -4,6 +4,8 @@ import (
 	"bytes"
 	"image"
 	"image/png"
+
+	_ "image/jpeg"
 	"io"
 
 	"github.com/anthonynsimon/bild/effect"
