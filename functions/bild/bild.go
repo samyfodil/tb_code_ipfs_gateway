@@ -62,7 +62,7 @@ func bild(e event.Event) uint32 {
 	}
 
 	inverted := effect.Invert(img)
-	resized := transform.Resize(inverted, 1024, 1024, transform.Linear)
+	resized := transform.Resize(inverted, 64, 64, transform.Linear)
 	rot := transform.Rotate(resized, 60, nil)
 
 	var b bytes.Buffer
